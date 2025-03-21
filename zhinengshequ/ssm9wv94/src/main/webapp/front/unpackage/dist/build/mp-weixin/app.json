@@ -1,0 +1,91 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/fangwuzulin/list",
+    "pages/fangwuzulin/add-or-update",
+    "pages/fangwuzulin/detail",
+    "pages/zhuhuxinxi/list",
+    "pages/zhuhuxinxi/add-or-update",
+    "pages/zhuhuxinxi/detail",
+    "pages/jiazhengfuwu/list",
+    "pages/jiazhengfuwu/add-or-update",
+    "pages/jiazhengfuwu/detail",
+    "pages/jiazhengyuyue/list",
+    "pages/jiazhengyuyue/add-or-update",
+    "pages/jiazhengyuyue/detail",
+    "pages/baoxiuxinxi/list",
+    "pages/baoxiuxinxi/add-or-update",
+    "pages/baoxiuxinxi/detail",
+    "pages/wuyejiaofei/list",
+    "pages/wuyejiaofei/add-or-update",
+    "pages/wuyejiaofei/detail",
+    "pages/xiaoquditu/list",
+    "pages/xiaoquditu/add-or-update",
+    "pages/xiaoquditu/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/discussjiazhengfuwu/list",
+    "pages/discussjiazhengfuwu/add-or-update",
+    "pages/discussjiazhengfuwu/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "智能社区服务小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#19191E",
+    "borderStyle": "white",
+    "backgroundColor": "#A27500",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/fangwuzulin/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "房屋租赁"
+      },
+      {
+        "pagePath": "pages/jiazhengfuwu/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "家政服务"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
